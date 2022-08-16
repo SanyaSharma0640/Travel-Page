@@ -10,6 +10,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Oleo+Script:wght@700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="shared.css">
     <link rel="stylesheet" href="places.css">
     <title>Travel Goals</title>
@@ -19,12 +21,6 @@
         <div id="page-logo">
             <a href="/index.html">Travel Goals</a>
         </div>
-        <nav>
-            <ul>
-                <li><a href="/places.html">Destinations</a></li>
-                <li><a href="">About</a></li>
-            </ul>
-        </nav>
     </header>
     <main>
         <ul>
@@ -193,19 +189,45 @@
             </li>
         </ul>
     </main>
-    <footer>
-        <ul>
-            <li id="insta">
-                <a href="https://www.instagram.com">
-                    <img src="\images\icons\instalogo.png" alt="Instagram logo">
-                </a>
-            </li>
-            <li id="facebook">
-                <a href="https://www.facebook.com">
-                    <img src="\images\icons\facebooklogo.png" alt="Facebook logo">
-                </a>
-            </li>
-        </ul>
-    </footer>
+    <footer class="bg-dark text-center text-white" id="footer">
+        <div class="container p-4">
+          <section class="mb-4">
+            <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/" role="button"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+            <a class="btn btn-outline-light btn-floating m-1" href="https://www.twitter.com/" role="button"
+              ><i class="fab fa-twitter"></i
+            ></a>
+            <a class="btn btn-outline-light btn-floating m-1" href="https://www.google.com/" role="button"
+              ><i class="fab fa-google"></i
+            ></a>
+            <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/" role="button"
+              ><i class="fab fa-instagram"></i
+            ></a>
+          </section>
+          <section class="">
+            <form action="">
+              <div class="row d-flex justify-content-center">
+                <div class="col-auto">
+                  <p class="pt-2">
+                    <strong>Sign up for our website</strong>
+                  </p>
+                </div>
+                <div class="col-md-5 col-12">
+                  <div class="form-outline form-white mb-4">
+                    <input type="email" id="form5Example21" class="form-control" />
+                    <label class="form-label" for="form5Example21">Email address</label>
+                  </div>
+                </div>
+                <div class="col-auto">
+                  <button type="submit" class="btn btn-outline-light mb-4">
+                    Subscribe
+                  </button>
+                </div>
+              </div>
+            </form>
+          </section>
+        </div>
+      </footer>
 </body>
 </html>
